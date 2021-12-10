@@ -1,0 +1,26 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT Employee (info)>
+<!ATTLIST Employee
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT info (Name,Experience,Salary,Position)>
+<!ATTLIST info
+  xmlns CDATA #FIXED ''
+  id CDATA #REQUIRED>
+
+<!ELEMENT Name (#PCDATA)>
+<!ATTLIST Name
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Experience (#PCDATA)>
+<!ATTLIST Experience
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Salary (#PCDATA)>
+<!ATTLIST Salary
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT Position (#PCDATA)>
+<!ATTLIST Position
+  xmlns CDATA #FIXED ''>
